@@ -1,0 +1,25 @@
+[
+  {
+    "name": "giri",
+    "phone": "4545454525",
+    "address": "delhi",
+    "items": [
+      {
+        "name": "Panner Frankie",
+        "price": "199",
+        "image": "https://recipesblob.oetker.in/assets/8209ead27fae402b974b847cd8b35b63/636x382/paneer-frankie.jpg",
+        "description": "Chill ",
+        "quantity": 1
+      },
+      {
+        "name": "Pizaa",
+        "price": "499",
+        "image": "https://theawesomedaily.com/wp-content/uploads/2016/09/pictures-of-pizza-23-1.jpg",
+        "description": "Love It",
+        "quantity": 1
+      }
+    ],
+    "total": "₹698",
+    "status": "Completed"
+  }
+]

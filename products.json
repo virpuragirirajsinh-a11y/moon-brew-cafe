@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Pizaa",
+    "price": "499",
+    "image": "https://theawesomedaily.com/wp-content/uploads/2016/09/pictures-of-pizza-23-1.jpg",
+    "description": "Love It"
+  },
+  {
+    "name": "Panner Frankie",
+    "price": "199",
+    "image": "https://recipesblob.oetker.in/assets/8209ead27fae402b974b847cd8b35b63/636x382/paneer-frankie.jpg",
+    "description": "Chill "
+  },
+  {
+    "name": "Hot Taste Chocolate Coffee",
+    "price": "259",
+    "image": "https://www.foodandwine.com/thmb/V1OEgtLQGUv_w2Fvm40WMLsJ4rk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Indulgent-Hot-Chocolate-FT-RECIPE0223-fd36942ef266417ab40440374fc76a15.jpg",
+    "description": "Chill With Me"
+  },
+  {
+    "name": "French Fries",
+    "price": "159",
+    "image": "https://www.recipetineats.com/wp-content/uploads/2022/09/Fries-with-rosemary-salt_1.jpg?resize=150",
+    "description": "Fries"
+  },
+  {
+    "name": "Paneer Tikka",
+    "price": "599",
+    "image": "https://th.bing.com/th/id/OIP.rmfdec0BPpCFEx2zxrK2hAHaGM?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "description": "Paneer Tikka"
+  }
+]

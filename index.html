@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moon Brew Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="logo">MOON BREW</h1>
+
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>Menu</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="small-text">PREMIUM EXPERIENCE</p>
+
+        <h2>
+          Luxury Coffee <br />
+          Minimal Vibes
+        </h2>
+
+        <p class="description">
+          Crafted coffee, peaceful atmosphere, premium moments.
+        </p>
+
+        <button>Explore Menu</button>
+      </div>
+      <div class="hero-image">
+        <img src="images/coffee.jpg" alt="Coffee" />
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="card">
+        <img src="images/espresso.jpg" alt="Espresso" />
+        <h3>Espresso</h3>
+        <p>Rich premium coffee experience.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/cappuccino.jpg" alt="Cappuccino" />
+        <h3>Cappuccino</h3>
+        <p>Soft creamy luxury taste.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/coldbrew.jpg" alt="Cold Brew" />
+        <h3>Cold Brew</h3>
+        <p>Minimal premium cold coffee.</p>
+      </div>
+    </section>
+    <section class="products-section">
+
+<h1 class="products-title">
+🔥 Featured Products
+</h1>
+
+<div id="products-container">
+
+</div>
+
+</section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+
+      <form id="contact-form">
+
+  <input
+    type="text"
+    placeholder="Full Name"
+    required
+  >
+
+  <input
+    type="tel"
+    placeholder="Phone Number"
+    required
+  >
+
+  <input
+    type="email"
+    placeholder="Email"
+    required
+  >
+
+  <select required>
+
+    <option value="">
+      Select Product
+    </option>
+
+    <option>
+      Cold Coffee
+    </option>
+
+    <option>
+      Hot Coffee
+    </option>
+
+    <option>
+      Pizza
+    </option>
+
+    <option>
+      Burger
+    </option>
+
+    <option>
+      Sandwich
+    </option>
+
+    <option>
+      Other
+    </option>
+
+  </select>
+
+  <input
+type="text"
+id="price"
+placeholder="Price"
+readonly
+>
+
+  <textarea
+    placeholder="Message"
+  ></textarea>
+
+  <button type="submit">
+    Send Message
+  </button>
+
+</form>
+    </section>
+
+    
+    <!-- Cart -->
+
+<div id="cart-panel">
+
+<h2>
+🛒 Your Cart
+</h2>
+
+<div id="cart-items">
+
+<p>
+Cart Empty 😢
+</p>
+
+</div>
+
+<h3 id="total-price">
+Total: ₹0
+</h3>
+
+<button id="checkout-btn">
+Checkout
+</button>
+
+</div>
+<!-- Checkout Popup -->
+
+<div id="checkout-popup">
+
+<div class="checkout-box">
+
+<h2>
+🛒 Checkout
+</h2>
+
+<input
+type="text"
+id="checkout-name"
+placeholder="Full Name"
+>
+
+<input
+type="text"
+id="checkout-phone"
+placeholder="Phone Number"
+>
+
+<textarea
+id="checkout-address"
+placeholder="Address"
+></textarea>
+
+<div id="order-summary">
+
+</div>
+
+<h3 id="checkout-total">
+Total: ₹0
+</h3>
+
+<button
+onclick="placeOrder()">
+
+✅ Place Order
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Checkout Popup -->
+
+<div id="checkout-popup">
+
+...
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+  </body>
+</html>
